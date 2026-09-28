@@ -1,0 +1,17 @@
+node_modules/  
+.next/  
+*.tsbuildinfo  
+.env.local 
+.env
+
+# Persistent Database storage (never overwrite VPS database on git pull)
+data/*
+!data/.gitkeep
+
+# Uploaded media files (videos, images, thumbnails, banners - never delete or overwrite on VPS)
+public/uploads/videos/*
+!public/uploads/videos/.gitkeep
+public/uploads/images/*
+!public/uploads/images/.gitkeep
+public/uploads/banners/*
+!public/uploads/banners/.gitkeep
